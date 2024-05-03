@@ -1,25 +1,43 @@
 <p align="center">
-   <img width="1000" height="300" src="https://user-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
+   <img width="500" height="80" src="https://user-images.githubusercontent.com/64184513/227216714-bd9fcb74-30e1-4c14-a394-1eed1e4d1652.png"
 </p>
 
+<hr>
 
-* Project developed for NBP - NewBloodProject
-* Built to learn ethical hacking on your own.
-* Includes guides, tutorials, cheat sheets and tools.
-* Each ressources have been write in Markdown.
-* The Guide is accessible directly from command line (thanks to Glow).
+<p align="center">
+Built to learn ethical hacking on your own<br>
+Includes guides, tutorials, cheat sheets and tools<br>
+</p>
 
-</br>
+<hr>
+<br>
+   
+**Index**
+
+- [Installation](https://github.com/NeverWonderLand/Self-Way/wiki/Installation)
+- [Getting Start](https://github.com/NeverWonderLand/Self-Way/wiki/Getting-Start)
+- [First Step](https://github.com/NeverWonderLand/Self-Way/blob/2f0facd64dde521c1603fc6a8e7b5882a9b2a837/Guide/First_Step.md)
+- [How to Use Tools](https://github.com/NeverWonderLand/Self-Way/blob/2f0facd64dde521c1603fc6a8e7b5882a9b2a837/Guide/how_to_use_tools.md)
+- [Guide](https://github.com/NeverWonderLand/Self-Way/blob/2f0facd64dde521c1603fc6a8e7b5882a9b2a837/Guide/README.md)
+- [Updating Self-Way](https://github.com/NeverWonderLand/Self-Way/blob/main/updating_SW.md)
+- [Changelog](https://github.com/NeverWonderLand/Self-Way/commits/v1.0.0)
+
+<br>
+
+> NOTES: If you are beginners, follow the step one by one. They aren't there for fun even if some can seem useless, they aren't. Make it easier for yourself, and follow it :)
+
+<hr>
 
 **Category of tools;**
 
 * Anonymity
 * Cracking
+* Crawler
 * Ddos
+* Dorking
 * Exploitation
 * Forensics/Anti-Forensics
 * Fuzzing
-* Google Dorking
 * Industrial Control System (ICS)
 * Lateral Movement
 * OSINT
@@ -31,67 +49,24 @@
 * Reversing
 * Sniffing
 * Social-Engineering
+* System
+* Utilities
 * Vulnerability
 * Web Application
 * Wireless
 
-<p align="center">
-   <img width="1000" height="300" src="https://user-images.githubusercontent.com/64184513/197375113-7bc79077-fb0d-44fc-b654-5311cdc65778.jpg"
-</p>
-
-
-### Step 1
-
-1. Download VirtualBox and install kali inside. You can find the instruction to do it here : https://github.com/NeverWonderLand/kali-inst-guide
-
-2. Open a ROOT terminal (the red one in the kali menu). It is important that you update your system before installing anything :
-```
-apt update && apt upgrade -y
-apt dist-upgrade -y
-apt full-upgrade -y
-
-# and then cleanup 
-
-apt auroremove -y
-```
-
-### Step 2
-
-1. Clone this repo :
-```
-git clone https://github.com/NeverWonderLand/Self-Way.git
-```
-
-2. Install it :
-```
-cd Self-Way
-chmod +x install.sh
-./install.sh
-```
-
-> To avoid to have to watch the screen the whole time, turn off the screen saver. To do this go in the kali menu and search for "power management" then turn it all off.
-
-> Make a reboot when its finish by typing `reboot` in the terminal and press `ENTER`
-
 </br>
 
-### Step 2
+<hr>
 
-Once all is complete:
+> To support the project (bitcoin):  
+```
+bc1qax7kackunv2zrhmnjw36cd45w64nj74cxd9f9f
+```
 
-* open the folder `Guide` on the Desktop
-* right click inside the folder and choose `open a terminal here`
-* in the terminal, type the command `glow` 
+<hr>
 
-> Now you are in the Guide book! to navigate inside, use your arrow on the keyboard and select with `ENTER`. To exit just press `q`. You can always let this terminal open and then open a new one to make your work!
-
-> To get start learning open the file `where_to_start.md`.
-
-# GOOD LUCK ! 
-
----------------------------------------------------
-
-> This repo have been build based on many others amazing work:
+> This repo have been build based on many other's amazing work:
 
 <https://github.com/ghostsec420>
 
@@ -104,8 +79,7 @@ Once all is complete:
 <https://github.com/Anon-Planet/thgtoa>
 
 
-> If you see some of your works here and want your name adds just message me and I will add it !
+> If you see some of your works here and want your name added just message me and I will add it !
 
 --------------------------------------
-
-| The NewBloodProject is my way to be the change I want to see - WondR <3
+*The project's ultimate goal is to make knowledge free and accessible to all, so that anyone can learn and grow. By empowering individuals to learn and practice ethical hacking, Self-Way aims to be the change it wants to see in the world. WondR <3*
